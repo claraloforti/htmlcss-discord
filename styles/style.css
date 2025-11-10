@@ -1,8 +1,13 @@
+/* Reset CSS */ 
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* Generali */
 
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -30,14 +35,14 @@ a {
 }
 
 
-/* BACKGROUNDS */
+/* Backgrounds */
 
 .bg-azzurro {
     background-color: rgb(37, 92, 232);
 }
 
 .bg-grey {
-    background-color: rgba(169, 169, 169, 0.449);
+    background-color: rgb(245, 245, 245);
 }
 
 .bg-black {
@@ -45,7 +50,7 @@ a {
 }
 
 
-/* BOTTONI (a) */
+/* Bottoni (a) */
 
 .btn {
     border-radius: 18px;
@@ -58,6 +63,10 @@ a {
     color: black;
 }
 
+.btn-header2 {
+    text-align: center;
+}
+
 .btn-scarica1 {
     margin-right: 20px;
 }
@@ -66,16 +75,18 @@ a {
     background-color: black;
 }
 
-.btn-scarica2, .btn-registrati {
+.btn-scarica2,
+.btn-registrati {
     background-color: rgb(112, 129, 194);
 }
 
-.btn-header2 {
-    text-align: center;
+.btn-accedi,
+.btn-registrati {
+    font-size: 12px;
 }
 
 
-/* HEADER */
+/* Header */
 
 .header1 {
     align-items: center;
@@ -113,9 +124,7 @@ a {
 }
 
 
-
-/* MAIN */
-
+/* Main */
 
 .main-sezione1,
 .main-sezione2,
@@ -149,7 +158,8 @@ a {
     margin-bottom: 20px;
 }
 
-/* FOOTER */
+
+/* Footer */
 
 /*Footer prima sezione*/
 
@@ -190,7 +200,7 @@ a {
 }
 
 .title-list {
-    color:rgb(112, 129, 194);
+    color: rgb(112, 129, 194);
 }
 
 /* Footer seconda sezione */
