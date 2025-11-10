@@ -45,6 +45,19 @@ a {
     background-color: rgb(245, 245, 245);
 }
 
+.wave {
+    background-color: rgb(245, 245, 245);
+    mask-image: url('../imgs/wave.svg');
+    height: 70px;
+}
+
+.central-wave {
+     background-color: rgb(245, 245, 245);
+    mask-image: url('../imgs/wave.svg');
+    transform: rotate(180deg);
+    height: 70px;
+}
+
 .bg-black {
     background-color: rgb(34, 38, 41);
 }
