@@ -51,14 +51,14 @@ h1 {
 .wave {
     background-color: rgb(245, 245, 245);
     mask-image: url('../imgs/wave.svg');
-    height: 70px;
+    height: 100px;
 }
 
 .central-wave {
-     background-color: rgb(245, 245, 245);
+    background-color: rgb(245, 245, 245);
     mask-image: url('../imgs/wave.svg');
     transform: rotate(180deg);
-    height: 70px;
+    height: 100px;
 }
 
 .bg-black {
@@ -206,10 +206,8 @@ h1 {
     line-height: 40px;
 }
 
-.ul1,
-.ul2,
-.ul3,
-.ul4 {
+
+ul {
     flex-basis: 25%;
     list-style: none;
     color: white;
